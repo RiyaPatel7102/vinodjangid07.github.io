@@ -1,16 +1,4 @@
-/* 
-██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
-██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
-╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
-░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
-░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
-░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
-░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
-░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
-░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
-██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
-╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
-░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░ */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -1092,28 +1080,28 @@ noscript{
 
 /* skills section ends */
 /* ######################################################## */
-/* projects section starts */
-.projects-section-container{
+/* products section starts */
+.products-section-container{
     padding: 150px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.projects-section-div{
+.products-section-div{
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.projects-heading{
+.products-heading{
     width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.projects-heading-article{
+.products-heading-article{
     font-size:3rem;
     font-family: fira code;
     font-weight: 500;
@@ -1124,7 +1112,7 @@ noscript{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.projectsHeadingP{
+.productsHeadingP{
     width: 300px;
     height: 1px;
     background-image: -webkit-gradient(linear,left top,right top,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
@@ -1290,7 +1278,7 @@ noscript{
    }
 /* Project visit button */
 
-/* projects ends */
+/* products ends */
 
 
 
@@ -1602,7 +1590,7 @@ footer{
     .skills-section{
         width: 80%;
     }
-    .projects-section-div{
+    .products-section-div{
         width: 80%;
     }
     
@@ -1795,7 +1783,7 @@ transition-duration: 1s;
     border-radius: 50%;
 
 }
-.projects-section-div{
+.products-section-div{
     width: 80%;
 }
 .project-box{
@@ -1861,7 +1849,7 @@ transition-duration: 1s;
         width: 100%;
      } 
 
-.projects-section-div{
+.products-section-div{
     width: 80%;
 }
 .project-boxes-div{
@@ -1935,7 +1923,7 @@ transition-duration: 1s;
     html {
         font-size: 45%;
     }
-    .skills-section,.about-section,.projects-section-div{
+    .skills-section,.about-section,.products-section-div{
         width: 80%;
     }
     .info-div{
@@ -1966,7 +1954,6 @@ transition-duration: 1s;
     .logos{
         gap: 20px;
     }
-     /* https://github.com/vinodjangid07 */
   }
   @media screen and (max-width:300px) {
     html {
@@ -1994,14 +1981,39 @@ transition-duration: 1s;
     .logos{
         gap: 20px;
     }
+    .contacts-wrapper {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+      
+      .contact-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-width: 250px;
+      }
+      
+      .contact-name {
+        color: var(--color-white);
+        font-size: 1.6rem;
+        font-family: fira code;
+        font-weight: 600;
+      }
+      
+      .contact-icon {
+        width: 32px;
+        height: 32px;
+        transition: transform 0.3s ease, filter 0.3s ease;
+        filter: brightness(2);
+      }
+      
+      .contact-icon:hover {
+        transform: scale(1.2);
+        filter: brightness(4);
+      }
+      
   }
-  /* https://github.com/vinodjangid07 */
-  /* responsive code above */
-/*   
-
-  @media screen and (min-height: 900px) and (max-width: 600px) {
-
-    .text-content{
-        justify-content: flex-start;
-    }
-  } */

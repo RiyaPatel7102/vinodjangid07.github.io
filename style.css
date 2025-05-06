@@ -880,8 +880,8 @@ noscript {
     position: relative
 }
 
-.projects-heading-article,
-.projectsHeadingP,
+.products-heading-article,
+.productsHeadingP,
 .section-heading-article,
 .sectionHeadingP,
 .skills-heading-article,
@@ -956,7 +956,7 @@ noscript {
 }
 
 .about-section,
-.projects-section-div,
+.products-section-div,
 .skills-section {
     width: 60%;
     display: flex;
@@ -965,7 +965,7 @@ noscript {
     justify-content: center
 }
 
-.projects-heading,
+.products-heading,
 .section-heading,
 .skills-heading {
     width: 100%;
@@ -980,7 +980,7 @@ noscript {
     width: 300px
 }
 
-.projects-heading-article,
+.products-heading-article,
 .section-heading-article,
 .skills-heading-article {
     font-size: 3rem;
@@ -992,7 +992,7 @@ noscript {
     -webkit-text-fill-color: transparent
 }
 
-.projectsHeadingP,
+.productsHeadingP,
 .sectionHeadingP,
 .skillsHeadingP {
     width: 300px;
@@ -1149,7 +1149,7 @@ footer {
     position: relative
 }
 
-.projects-section-container {
+.products-section-container {
     padding: 150px 0;
     display: flex;
     align-items: center;
@@ -1575,7 +1575,7 @@ footer {
         font-size: 60%
     }
 
-    .projects-section-div,
+    .products-section-div,
     .skills-section,
     .text-content {
         width: 80%
@@ -1784,7 +1784,7 @@ footer {
         border-radius: 50%
     }
 
-    .projects-section-div {
+    .products-section-div {
         width: 80%
     }
 
@@ -1856,7 +1856,7 @@ footer {
         transition-duration: 1s
     }
 
-    .projects-section-div {
+    .products-section-div {
         width: 80%
     }
 
@@ -1938,7 +1938,7 @@ footer {
     }
 
     .about-section,
-    .projects-section-div,
+    .products-section-div,
     .skills-section {
         width: 80%
     }

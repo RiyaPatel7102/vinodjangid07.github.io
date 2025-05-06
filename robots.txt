@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vinodjangid.site/sitemap.xml
